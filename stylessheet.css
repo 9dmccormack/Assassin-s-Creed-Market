@@ -1,4 +1,12 @@
 #top{
     text-align: center;
-    text-color: blue;
+    color: #0000ff;
 }
+* {
+    box-sizing: border-box;
+  }
+.box {
+    float: left;
+    width: 33.33%; 
+    padding: 50px; 
+  }
