@@ -10,3 +10,10 @@
     width: 33.33%; 
     padding: 50px; 
   }
+  .pichome{
+      height: 800px;
+      width: 400px;
+  }
+  body{
+      background-color: #ff0000;
+  }
