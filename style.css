@@ -8,3 +8,7 @@
   #weaponbio{
       float: left;
   }
+  section{
+      float: left;
+      width: 50%;
+  }
