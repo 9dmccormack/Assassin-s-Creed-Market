@@ -3,10 +3,11 @@
 <title>
 
 </title>
+<link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <section>
-<form>
+<section>
+<form action="/action_page.php" method="GET">
     Name:<br>
     <input type="text" name="firstname" value="Enter"><br>
     Cost:<br>
@@ -14,9 +15,7 @@
     <input type="radio" name="Type" value="Common" checked> Common<br>
   <input type="radio" name="Type" value="Rare"> Rare<br>
   <input type="radio" name="Type" value="Legendary"> Legendary
-    <input type="submit" value="Submit">
-</form>
-<form action="/action_page.php">
+  <br>
     <input list="browsers" name="browser">
     <datalist id="browsers">
       <option value="Internet Explorer">
@@ -28,12 +27,15 @@
     <input type="submit">
   </form>
 </section>
-<section>
+<section id = "snake">
+  <!--  eventually replace with php-->
     <div class="card" style="width:400px">
-        <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/41J3tTNcm9L._SX425_.jpg" alt="Card image">
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text.</p>
+          <h4 class="card-title">Weapon Name</h4>
+          <p class="card-text">Cost: 750 gold
+            <br> Level: Legendary <br> Sword
+          </p>
           <a href="#" class="btn btn-primary">See Profile</a>
         </div>
       </div>
