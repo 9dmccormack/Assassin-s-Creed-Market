@@ -1,7 +1,16 @@
-#heli{
-    display: inline;
-    
+nav{
+    height: 60px;
+    display: flex;
+
 }
+nav > a{
+    font-family: 'Kavivanar', cursive;
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    font-size: 2em;
 
 #jeffismad {
     list-style-type: none;
